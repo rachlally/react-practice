@@ -16,12 +16,12 @@ const Counter = () => {
 
 
     return (
-        <>
-        <h2>Count</h2>
-        <button onClick={increase}>Increase</button>
+        <div className="m-3 p-3 border border-primary">
+        <h2 >Count</h2>
+        <button onClick={increase} className="btn btn-success">Increase</button>
         <div>{count}</div>
-        <button onClick={decrease}>Decrease</button>
-        </>
+        <button onClick={decrease} className="btn btn-danger">Decrease</button>
+        </div>
     )
 
 }

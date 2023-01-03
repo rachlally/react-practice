@@ -2,12 +2,14 @@
 
 
 
-export default function ToDoItem({todo}) {
+export default function ToDoItem({ todo }) {
     console.log(todo)
 
     return (
-        <div>
-            <h3>{todo}</h3>
+        <div className="m-3 p-3" >
+            <ul className="list-group list-group-flush" >
+                <h4 className="list-group-item bg-dark text-white">{todo}</h4>
+            </ul>
         </div>
     )
 
