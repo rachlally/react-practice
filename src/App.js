@@ -9,6 +9,8 @@ function App() {
     <div>
       <h1>Welcome</h1>
       <Counter/>
+      <hr/>
+      <Counter />
       <h2>To Do List:</h2>
       {todos.map(todo => <ToDoItem todo={todo} />)}
     </div>
